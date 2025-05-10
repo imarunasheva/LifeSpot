@@ -1,0 +1,15 @@
+﻿<aside id="sidebar">
+    <div class="navbar">
+        <a href="/"><p>Все трансляции</p></a>
+        <a href="/about"><p>О проекте</p></a>
+        <a href="/testing"><p>Тестирование</p></a>
+    </div>
+    <div>
+        <input type="text" oninput="
+const inputParseFunction = function () {
+    return document.getElementsByTagName('input')[0].value.toLowerCase();
+}
+filterContent(inputParseFunction)
+" placeholder="Поиск видео" class="video-input">
+    </div>
+</aside>

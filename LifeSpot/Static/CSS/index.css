@@ -34,7 +34,7 @@ footer {
 }
 aside {
     height: 100%;
-    width: 10%;
+    width: 11.5%;
     position: absolute;
     z-index: 1;
     top: 0;
@@ -57,4 +57,16 @@ body {
 .video-input:focus {
     border-color: #b6ff00;
     outline: none;
+}
+.review-container, .review-button {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.review-text {
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
 }
